@@ -1,14 +1,13 @@
 # Gromacs-benchmarking
 ##system
 ``` bash
-MD system AquaporinRibosomePeptides
-atoms 81,743
-system size  nm10.8×10.2×9.6
-time step /fs 2
-cutoff radii  nm1.0
-PME grid spacing /nm 0.120
-neighbor searching frequency 10 
-benchmark steps 10,000
+MD system             Aquaporin
+No of atoms           81,743
+system size/nm        10.8×10.2×9.6
+time step /fs         2
+cutoff radiinm        1.0
+PME grid spacing /nm  0.120
+benchmark steps       16,000
 ```
 ## Result
 Pure MPI jobs
