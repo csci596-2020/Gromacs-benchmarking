@@ -15,7 +15,7 @@ benchmark steps       16,000
 Pure MPI jobs
 nodes = 1,4,10,...,50,60,70; ntask-per-node = 16, cpu-per-task = 1; first 6 calculation done only on Xeon silver 4116 processor @ 2.1GHz frequency
 
-![1](https://user-images.githubusercontent.com/43625587/99996966-55dc7e00-2d71-11eb-919c-4f11595bf90b.png)
+![1](https://user-images.githubusercontent.com/43625587/100000554-968ac600-2d76-11eb-9618-eee054e1ad2c.png)
 
 When the simulation reaches to **less than 300 atoms/core** speed up does **not** increase linearly with no of nodes anymore. Red line denotes the perfect scale up.
 
