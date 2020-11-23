@@ -11,7 +11,7 @@ benchmark steps       16,000
 ```
 ## Result
 Pure MPI jobs
-nodes = 1,4,10,...,50,60,70; ntask-per-node = 16, cpu-per-task = 1; first 6 calculation done only  Xeon silver 4116 processor @ 2.1GHz frequency
+nodes = 1,4,10,...,50,60,70; ntask-per-node = 16, cpu-per-task = 1; first 6 calculation done only on Xeon silver 4116 processor @ 2.1GHz frequency
 
 ![1](https://user-images.githubusercontent.com/43625587/99996966-55dc7e00-2d71-11eb-919c-4f11595bf90b.png)
 
