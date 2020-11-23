@@ -1,5 +1,7 @@
 # Gromacs-benchmarking
-##system
+Strong scalling test using Gromacs2020 on Discovery cluster
+
+## system
 ``` bash
 MD system             Aquaporin
 No of atoms           81,743
